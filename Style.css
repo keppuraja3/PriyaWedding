@@ -1,0 +1,69 @@
+html{
+    margin: 0;
+    padding: 0;
+}
+body{
+
+    background: url(img/wedding_stage1.jpg) no-repeat center fixed;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    width: 100%; 
+    animation-name: floating;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    margin-top: 5px;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    height: 50vh;
+    width: 100%; 
+    animation-name: floating;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    margin-top: 5px;
+}
+
+@keyframes floating {
+    0% { transform: translate(0,  0px); }
+    50%  { transform: translate(0, 25px); }
+    100%   { transform: translate(0, -0px); }   
+}
+
+.btn{
+    text-transform: uppercase;
+    border-radius: 26px;
+    box-shadow: 5px 5px 8px #666666;
+    font-family: Georgia;
+    color: #ffffff;
+    margin-top: 12rem;
+    margin-right: 2.1rem;
+    margin-bottom: 2.1rem;
+    margin-left: 2.1rem;
+    font-size: 20px;
+    background: #3498db;
+    padding: 11px 23px 10px 20px;
+    border: solid #54e3d7 3px;
+    text-shadow: 4px 4px 4px #4f4b4c;
+    text-decoration: none;
+    -webkit-box-shadow: 5px 5px 8px #666666;
+    -webkit-border-radius: 26;
+    -moz-border-radius: 26;
+    -moz-box-shadow: 5px 5px 8px #666666;
+    }
+
+.btn:hover {
+        background: #3cb0fd;
+        background-image: -webkit-linear-gradient(top, #3cb0fd, #34d9cb);
+        background-image: -moz-linear-gradient(top, #3cb0fd, #34d9cb);
+        background-image: -ms-linear-gradient(top, #3cb0fd, #34d9cb);
+        background-image: -o-linear-gradient(top, #3cb0fd, #34d9cb);
+        background-image: linear-gradient(to bottom, #3cb0fd, #34d9cb);
+        text-decoration: none;
+    }

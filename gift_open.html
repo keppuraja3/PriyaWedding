@@ -6,12 +6,135 @@
     <link rel="website icon" href="img/gift.png" type="png">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="Style.css">
+    <style>body {
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      
+      .flip-box {
+        background-color: transparent;
+        width: 300px;
+        height: 200px;
+        margin: 2rem;
+        padding-bottom: 3rem;
+        perspective: 1000px;
+      }
+      
+      .flip-box-inner {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        transition: transform 0.8s;
+        transform-style: preserve-3d;
+      }
+      
+      .flip-box:hover .flip-box-inner {
+        transform: rotateY(180deg);
+      }
+      
+      .flip-box-front, .flip-box-back {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+      }
+      
+      .flip-box-front {
+        display: grid;
+        place-items: center;
+        width: 100%;
+        
+        color: black;
+    }
+      
+      .flip-box-back {
+        background-color: #0162d4;
+        color: white;
+        width: 300px;
+        padding: 1rem;
+        height: 190px;
+        font-family: ui-monospace;
+        border-radius: 1rem;
+        transform: rotateY(180deg); 
+      }
+      .para p span{
+        font-size: 1.3rem;
+        font-weight: 1000;
+        padding: 5px;
+        margin-left: 2rem;
+        text-align: center;
+        font-family: cursive;
+      }
+      .para p{
+        padding: 1rem;
+        text-align: justify;
+      }
+      .para h2{
+        color: rgb(238, 44, 90);
+        text-align: center;
+        font-size: 1rem;
+        font-weight: 1000;
+      }
+      .para h1{
+        color: rgb(0, 0, 0);
+        text-align: center;
+        font-size: 1.5rem;
+        font-weight: 1000;
+      }
+      .para{
+        background: #ffffff9a;
+        text-indent: 1rem;
+        margin: 1rem;
+        border: 2px solid ;
+        border-radius: 1rem;
+      }
+      </style>
     <title>Home Page</title>
 </head>
 <body>
-    <div class="container">
-        
+    <div class="container0">
+        <div class="para">
+            <p>
+                <p><span>திருமண வாழ்த்துக்கள்</span></p><br>
+
+                <p>பரிசு என்பது அன்பை பகிரும் முறையாகும். அப்பேர்பட்ட அன்பை குறிப்பிட்ட பரிசுகளில் அடக்க முடியாது. மேலும் பரிசினை தேர்தெடுக்கும் கால அவகாசம் கிடைக்கவில்லை. ஆகையால், பரிசினை தங்கள் விருப்பத்திர்க்கு வேண்டும் வகையில் அதனை <span class="flipkart">Filpkart Wedding Voucher</span> ஆக அளிக்கின்றோம்.</p> <br>
+               
+               <p><span>முக்கிய குறிப்பு:</span></p> <br>
+
+               <p>மேற்கண்ட வரிகளில் பிழை இருந்தால் கண்டுக்க வேணாம்...
+               
+               பரிசினை பற்றி ஏதேனும் சந்தேகங்களுக்கு அல்லது தகவல் தேவைப்பட்டால் தொலைபேசியில் தொடர்புகொள்ளவும். 
+               
+               <br> <p>நன்றி வணக்கம்</p> <br>
+               
+               <p><h1>இப்படிக்கு</h1> <br>
+                <h2>MODERN MARI (எ) VADUKAPATTI<br>
+                KEPPU (எ) (CAPSICUM)</span></p>
+            </p>
+               </p>
+        </div>
+    </div>
+
+    <!-- flip card -->
+    <h1 style="font-size: 2rem; font-family: cursive; text-align: center; font-weight: 1000;">Click the Card </h1>
+
+<div class="flip-box">
+  <div class="flip-box-inner">
+    <div class="flip-box-front">
+      <img src="flipkart-wed.png" width="100%" height="auto" alt="">
+    </div>
+    <div class="flip-box-back">
+      <h2>GIFT CARD NO</h2>
+      <h2>254264851942</h2>
+      <h2>PIN</h2>
+      <h2>458621</h2>
+    </div>
+  </div>
 </div>
+<a href="https://youtu.be/HoQvfm0bmnI?t=1s05s">
+<button class="btn1" style="margin: 2rem;">How To Apply</button></a>
+<!-- flip card -->
     <script src="js/bootstrap.min.js"></script>
     <script src="Script.js"></script>
     

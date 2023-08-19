@@ -3,8 +3,11 @@ function welcome_page(){
 }
 
 function gift_click(){
-    location.href="gift_open.html";
+    location.href="gift.html";
 }
 function gallery(){
     location.href="gallery.html";
+}
+function GiftBox(){
+    location.href="gift_open.html";
 }

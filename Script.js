@@ -1,5 +1,5 @@
 function welcome_page(){
-    location.href="welcome.html";
+    location.href="wait.html";
 }
 
 function gift_click(){
@@ -10,4 +10,7 @@ function gallery(){
 }
 function GiftBox(){
     location.href="gift_open.html";
+}
+function go_back(){
+    location.href="index.html";
 }

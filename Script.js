@@ -1,5 +1,5 @@
 function welcome_page(){
-    location.href="wait.html";
+    location.href="welcome.html";
 }
 
 function gift_click(){
